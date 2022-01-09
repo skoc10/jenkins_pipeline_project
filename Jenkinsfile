@@ -9,5 +9,10 @@ pipeline {
                 sh 'echo selman koc'
             }
         }
+        stage('test') {
+            steps {
+                echo 'test completed'
+            }
+        }
     }
 }
