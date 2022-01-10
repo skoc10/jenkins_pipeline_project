@@ -13,6 +13,7 @@ pipeline {
             steps {
                 echo 'test completed'
                 echo 'selman koc'
+                echo 'selman koc'
             }
         }
     }
