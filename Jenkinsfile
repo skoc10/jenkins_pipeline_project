@@ -12,6 +12,7 @@ pipeline {
         stage('test') {
             steps {
                 echo 'test completed'
+                echo 'selman koc'
             }
         }
     }
